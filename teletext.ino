@@ -332,7 +332,7 @@ void loop(){
       if(!showPage(page,s)){
         const char* msg="Offline / kein Cache"; int cx=8, cy=SCREEN_H/2-8; for(int k=0; msg[k]; ++k) DRAW_CHAR(cx+k*8,cy,(uint8_t)msg[k],C_R,C_K);
       }
-      for(int t=0;t<10;t++) delay(1000);
+      for(int t=0;t<20;t++) delay(1000);
     }
   }
 }
